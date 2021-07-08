@@ -1,0 +1,23 @@
+button {
+  background-color: white;
+  border:none;
+  border-radius: 15pt;
+  padding: 0.35rem 1rem;
+  font-size: 0.85rem;
+  outline: none;
+  transition: all 0.5s ease;
+  text-align: center;
+  display: flex;
+}
+
+button:hover{
+  opacity: 1;
+  cursor: pointer;
+  color:white;
+}
+
+button:hover .fa {
+  opacity: 1;
+  cursor: pointer;
+  color:white;
+}

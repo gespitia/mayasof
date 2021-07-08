@@ -1,0 +1,9 @@
+<button
+  [ngStyle]="{ background:bgcolor, border:border, color:colorletter}"
+  (mouseover)="hover()"
+  (mouseout)="outhover()"
+>
+  <i *ngIf="aling=='start'" class="fa {{ icon }}" [ngStyle]="{color: colorletter}" ></i>
+  <div [ngStyle]="{padding:pd, color:colorletter}">{{ content }}</div>
+  <i *ngIf="aling=='end'" class="fa {{ icon }}" [ngStyle]="{color: colorletter}"></i>
+</button>

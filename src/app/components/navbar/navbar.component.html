@@ -1,0 +1,30 @@
+<header class="header">
+  <nav class="nav">
+    <img
+      src="http://mvp.haeppie.com/wp-content/uploads/2021/05/Logo_wordpress.png"
+    class="logo">
+    <ul class="nav-menu" [ngClass]="myClass ? 'nav-menu-visible': ''">
+      <li>
+        <button *ngIf="myClass" class="closed" (click)="onChangeClass()">
+          <i class="fa fa-times"></i>
+        </button>
+      </li>
+      <li class="nav-menu-item">
+        <a href="#" class="nav-menu-link">
+          <i class="fa fa-eye"></i> DASHBOARD
+        </a>
+      </li>
+      <li class="nav-menu-item">
+        <a href="#" class="nav-menu-link">
+          <i class="fa fa-building"></i> PORTFOLIO
+        </a>
+      </li>
+    </ul>
+    <span class="logo">
+      <i class="fa fa-shopping-bag"></i>&nbsp;<sup class="superindice" >0</sup>
+      <button class="nav-toggle" (click)="onChangeClass()">
+        <i class="fa fa-bars"></i>
+      </button>
+    </span>
+  </nav>
+</header>

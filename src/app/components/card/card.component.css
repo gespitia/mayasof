@@ -1,0 +1,13 @@
+.card {
+  border-radius: 2rem;
+  background-color:#f0f3f3 ;
+  padding: 1.5em;
+}
+.title-card{
+  font-size: 2.5vw;
+  font-weight:bolder;
+}
+
+p{
+  margin-top: 1rem;
+}

@@ -1,0 +1,18 @@
+<div class="container-fluid">
+  <app-present></app-present>
+  <app-anuncio></app-anuncio>
+  <app-gallery></app-gallery>
+  <div class="instruc">
+    <span class="subtitle">Why, How, What</span>
+    <div class="row">
+      <ng-container *ngFor="let articulo of articulos">
+        <div *ngIf="articulo.img" class="col-md-6 col-sm-6 col-xs-12 post">
+          <app-articulo img="{{ articulo.img }}"></app-articulo>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12 post">
+          <app-articulo title="{{ articulo.title }}" content="{{ articulo.content }}"></app-articulo>
+        </div>
+      </ng-container>
+      </div>
+    </div>
+</div>

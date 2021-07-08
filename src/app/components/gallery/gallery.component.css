@@ -1,0 +1,24 @@
+.gallery{
+  margin: 4rem auto;
+  width: 95%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  vertical-align: baseline;
+  border-top: #f0f3f3 2px solid;
+  border-bottom: #f0f3f3 2px solid;
+}
+
+.img{
+  filter: grayscale(100%);
+  box-sizing: border-box;
+  max-width: 130pt;
+  padding: 2rem;
+}
+
+.img:hover{
+  cursor: pointer;
+  filter: none;
+}
+
+

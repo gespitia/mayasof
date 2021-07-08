@@ -1,0 +1,25 @@
+.starts{
+  margin-bottom: 20pt;
+  margin-right: 60pt;
+  font-size: 18pt;
+}
+.img{
+  border-radius: 2rem;
+  width: 100%;
+}
+.post{
+  margin:1rem 0;
+  width: max-content;
+}
+.desc{
+  margin:2rem 0;
+  width: 90%;
+}
+.btn-final{
+  margin-top: 3rem;;
+}
+
+@media( max-width: 991px ){
+
+}
+

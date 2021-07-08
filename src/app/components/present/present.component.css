@@ -1,0 +1,38 @@
+.content{
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.close{
+  float: right;
+  margin-right: 3.7vw;
+  margin-top: -1.2vh;
+}
+
+.groupbutton{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.groupbutton p{
+  margin: 1rem;
+}
+
+@media(max-width:768px){
+
+  .groupbutton{
+    display: block;
+    margin-bottom: 3rem;
+    width: max-content;
+  }
+
+}
+
+
+
